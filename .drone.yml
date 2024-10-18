@@ -1,0 +1,9 @@
+kind: pipeline
+name: test-pipeline
+type: docker
+
+steps:
+  - name: say-hello
+    image: alpine
+    commands:
+      - echo 'HI THERE CICD'
